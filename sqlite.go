@@ -5,14 +5,13 @@ import (
 	"strconv"
 	"strings"
 
-	_ "modernc.org/sqlite"
 	"gorm.io/gorm"
 	"gorm.io/gorm/callbacks"
 	"gorm.io/gorm/clause"
 	"gorm.io/gorm/logger"
 	"gorm.io/gorm/migrator"
 	"gorm.io/gorm/schema"
-
+	_ "modernc.org/sqlite"
 )
 
 // DriverName is the default driver name for SQLite.
@@ -122,7 +121,7 @@ func (dialector Dialector) Migrator(db *gorm.DB) gorm.Migrator {
 	}}}
 }
 
-func (dialector Dialector) BindVarTo(writer clause.Writer, stmt *gorm.Statement, v interface{}) {
+func (dialector Dialector) BindVarTo(writer clause.Writer, stmt *gorm.Statement, v any) {
 	writer.WriteByte('?')
 }
 
@@ -142,7 +141,7 @@ func (dialector Dialector) QuoteTo(writer clause.Writer, str string) {
 	}
 }
 
-func (dialector Dialector) Explain(sql string, vars ...interface{}) string {
+func (dialector Dialector) Explain(sql string, vars ...any) string {
 	return logger.ExplainSQL(sql, nil, `"`, vars...)
 }
 
