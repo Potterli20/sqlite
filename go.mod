@@ -1,4 +1,4 @@
-module github.com/Potterli20/sqlite-go
+module github.com/Potterli20/sqlite
 
 go 1.19
 
