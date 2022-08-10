@@ -1,6 +1,6 @@
-module github.com/cloudquery/sqlite
+module github.com/potterli20/sqlite-go
 
-go 1.14
+go 1.19
 
 require (
 	gorm.io/gorm v1.20.12
