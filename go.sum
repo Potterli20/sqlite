@@ -65,8 +65,6 @@ modernc.org/ccorpus v1.11.6/go.mod h1:2gEUTrWqdpH2pXsmTM1ZkjeSrUWDpjMu2T6m29L/Er
 modernc.org/httpfs v1.0.6 h1:AAgIpFZRXuYnkjftxTAZwMIiwEqAfk8aVB2/oA6nAeM=
 modernc.org/httpfs v1.0.6/go.mod h1:7dosgurJGp0sPaRanU53W4xZYKh14wfzX420oZADeHM=
 modernc.org/libc v1.17.0/go.mod h1:XsgLldpP4aWlPlsjqKRdHPqCxCjISdHfM/yeWC5GyW0=
-modernc.org/libc v1.18.1 h1:4jD138SG8yFrTYzxfx0JbwrzjZ+ZPr62ZeDTWiEhLR4=
-modernc.org/libc v1.18.1/go.mod h1:vj6zehR5bfc98ipowQOM2nIDUZnVew/wNC/2tOGS+q0=
 modernc.org/libc v1.18.2 h1:3pMI+TsEHOlOohXIPvH8g3ITfuKe+1iNDgxJMvebp/E=
 modernc.org/libc v1.18.2/go.mod h1:vj6zehR5bfc98ipowQOM2nIDUZnVew/wNC/2tOGS+q0=
 modernc.org/mathutil v1.2.2/go.mod h1:mZW8CKdRPY1v87qxC/wUdX5O1qDzXMP5TH3wjfpga6E=
