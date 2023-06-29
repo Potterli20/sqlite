@@ -3,7 +3,7 @@ module github.com/Potterli20/sqlite
 go 1.20
 
 require (
-	gorm.io/gorm v1.25.1
+	gorm.io/gorm v1.25.2
 	modernc.org/sqlite v1.23.1
 )
 
