@@ -4,7 +4,7 @@ go 1.21
 
 require (
 	gorm.io/gorm v1.25.7
-	modernc.org/sqlite v1.29.1
+	modernc.org/sqlite v1.29.2
 )
 
 require (
