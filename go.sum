@@ -43,6 +43,8 @@ modernc.org/gc/v3 v3.0.0-20240801135723-a856999a2e4a h1:CfbpOLEo2IwNzJdMvE8aiRbP
 modernc.org/gc/v3 v3.0.0-20240801135723-a856999a2e4a/go.mod h1:Qz0X07sNOR1jWYCrJMEnbW/X55x206Q7Vt4mz6/wHp4=
 modernc.org/libc v1.58.0 h1:TebzsKutZdvJposq9SA1atw3yBfrB+u03A8rpN0I+Qc=
 modernc.org/libc v1.58.0/go.mod h1:EY/egGEU7Ju66eU6SBqCNYaFUDuc4npICkMWnU5EE3A=
+modernc.org/libc v1.59.0 h1:l76JkuLeLDd78Z0mL1+t6375/0Z7LjWy4snt5oJNm7k=
+modernc.org/libc v1.59.0/go.mod h1:EY/egGEU7Ju66eU6SBqCNYaFUDuc4npICkMWnU5EE3A=
 modernc.org/mathutil v1.6.0 h1:fRe9+AmYlaej+64JsEEhoWuAYBkOtQiMEU7n/XgfYi4=
 modernc.org/mathutil v1.6.0/go.mod h1:Ui5Q9q1TR2gFm0AQRqQUaBWFLAhQpCwNcuhBOSedWPo=
 modernc.org/memory v1.8.0 h1:IqGTL6eFMaDZZhEWwcREgeMXYwmW83LYW8cROZYkg+E=
