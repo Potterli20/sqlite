@@ -2,7 +2,7 @@ name: go-update
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "0 */3 * * *"
 jobs:
   go:
     runs-on: ubuntu-latest
@@ -10,14 +10,14 @@ jobs:
       - name: Setup Go 1.x.y
         uses: actions/setup-go@main
         with:
-          go-version: ^1.22
+          go-version: ^1.23
       - name: Checkout codebase
         uses: actions/checkout@main
 
       - name: go
         run: |
           gofmt -w -r 'interface{} -> any' .
-          go mod tidy -compat=1.22
+          go mod tidy -compat=1.23
           go mod download
           go get -u
           go mod download

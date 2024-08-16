@@ -1,6 +1,6 @@
 module github.com/Potterli20/sqlite
 
-go 1.22
+go 1.23
 
 require (
 	gorm.io/gorm v1.25.11
