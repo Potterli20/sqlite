@@ -1,6 +1,8 @@
 module github.com/Potterli20/sqlite
 
-go 1.23
+go 1.23.0
+
+toolchain go1.23.6
 
 require (
 	gorm.io/gorm v1.25.12
@@ -15,7 +17,7 @@ require (
 	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/ncruces/go-strftime v0.1.9 // indirect
 	github.com/remyoudompheng/bigfft v0.0.0-20230129092748-24d4a6f8daec // indirect
-	golang.org/x/exp v0.0.0-20250210185358-939b2ce775ac // indirect
+	golang.org/x/exp v0.0.0-20250215185904-eff6e970281f // indirect
 	golang.org/x/sys v0.30.0 // indirect
 	golang.org/x/text v0.22.0 // indirect
 	modernc.org/libc v1.61.13 // indirect
