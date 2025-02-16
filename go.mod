@@ -1,8 +1,8 @@
 module github.com/Potterli20/sqlite
 
-go 1.23.0
+go 1.24
 
-toolchain go1.23.6
+tool golang.org/x/tools/cmd/stringer
 
 require (
 	gorm.io/gorm v1.25.12
