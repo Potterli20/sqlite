@@ -5,7 +5,7 @@ go 1.24
 tool golang.org/x/tools/cmd/stringer
 
 require (
-	gorm.io/gorm v1.25.12
+	gorm.io/gorm v1.26.0
 	modernc.org/sqlite v1.37.0
 )
 
@@ -23,7 +23,7 @@ require (
 	golang.org/x/sys v0.32.0 // indirect
 	golang.org/x/text v0.24.0 // indirect
 	golang.org/x/tools v0.32.0 // indirect
-	modernc.org/libc v1.63.0 // indirect
+	modernc.org/libc v1.63.1 // indirect
 	modernc.org/mathutil v1.7.1 // indirect
 	modernc.org/memory v1.10.0 // indirect
 )
