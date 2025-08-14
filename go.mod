@@ -1,8 +1,8 @@
 module github.com/Potterli20/sqlite
 
-go 1.24.0
+go 1.25.0
 
-toolchain go1.24.5
+toolchain go1.25.0
 
 tool golang.org/x/tools/cmd/stringer
 
