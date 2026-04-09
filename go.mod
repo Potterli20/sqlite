@@ -6,7 +6,7 @@ tool golang.org/x/tools/cmd/stringer
 
 require (
 	gorm.io/gorm v1.31.1
-	modernc.org/sqlite v1.48.1
+	modernc.org/sqlite v1.48.2
 )
 
 require (
